@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <meta content="" name="description">
+    <meta content="" name="author">
+
+    <title>InternetWorks</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="startbootstrap-scrolling-nav-gh-pages/css/scrolling-nav.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a>
+        <button aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler" data-target="#navbarResponsive" data-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#What is Internet">What is Internet</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#Wires, Cables and WiFi">Wires, Cables and WiFi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#IP Addresses and DNS">IP Addresses and DNS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#Packets, Routing and Reliability">Packets, Routing and
+                        Reliability</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#HTTP and HTML">HTTP and HTML</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#Encryption Public Keys">Encryption Public Keys</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="bg-info text-white">
+    <div class="container text-center">
+        <h1 class="display-4">HTTP and HTTPS Protocols</h1>
+
+    </div>
+</header>
+<!-- content -->
+<p style="height:5px;">&nbsp;</p>
+<br>
+
+	   <div class="container  border">
+
+		   <div class="row" >
+
+               <div class="col-sm-7">
+                   <h2> HTTP(S) Definition</h2>
+                   <p> HTTP stands for<strong> Hypertext Transfer Protocol</strong>. At it’s most basic, it allows for the communication
+                       between different systems. It’s most commonly used to transfer data from a web server to a
+                       browser in order to allow users to view web pages. It’s the protocol that was used for basically
+                       all early websites.</p>
+                   <p> HTTPS stands for <strong>Hypertext Transfer Protocol Secure</strong>. The problem with the regular HTTP protocol
+                       is that the information that flows from server to browser is not encrypted, which means it can be
+                       easily stolen. HTTPS protocols remedy this by using an SSL (secure sockets layer) certificate,
+                       which helps create a secure encrypted connection between the server and the browser, thereby
+                       protecting potentially sensitive information from being stolen as it is transferred between the
+                       server and the browser.</p>
+               </div>
+             <div class="col-sm-5" >
+               <img src="Images/HTTP1.png"  alt="img" class="img-fluid" width="700" height="600" style="float:right; " />
+             </div>
+
+
+           </div>
+<hr>
+
+           <div class="row">
+
+               <div class="col-sm-9">
+                   <h2> Difference Between HTTP and HTTPS</h2>
+                   <table class="table table-bordered table-striped">
+
+                       <thead>
+                       <tr>
+                           <th>#</th>
+                           <th>HTTP</th>
+                           <th>HTTPS</th>
+                       </tr>
+                       </thead>
+                       <tbody>
+                       <tr class="active">
+                           <td>Prefix Used</td>
+                           <td>Url begins with "http://"</td>
+                           <td>Url begins with "https://"</td>
+                       </tr>
+                       <tr class="success">
+                           <td>Security</td>
+                           <td>Unsecured.</td>
+                           <td>Secured.</td>
+                       </tr>
+                       <tr class="warning">
+                           <td>Operated On</td>
+                           <td>Application layer</td>
+                           <td>Transport layer.</td>
+                       </tr>
+                       <tr class="danger">
+                           <td>Encryption</td>
+                           <td>No encryption is there</td>
+                           <td>Encryption is used.</td>
+                       </tr>
+                       <tr class="success">
+                           <td>Certificate</td>
+                           <td>Not required.</td>
+                           <td>Necessary</td>
+                       </tr>
+                       <tr class="warning">
+                           <td>Port Used</td>
+                           <td>Port number 80 is used for communication.</td>
+                           <td>Port number 443 is used for communication.</td>
+                       </tr>
+                       <tr class="danger">
+                           <td>Characteristics</td>
+                           <td>It is subject to man-in-the-middle and eavesdropping attacks.</td>
+                           <td>It is designed to resist man-in-the-middle and eavesdropping attacks and is considered
+                               secure against such attacks.
+                           </td>
+                       </tr>
+                       </tbody>
+                   </table>
+               </div>
+           </div>
+           <hr>
+		   <div class="row" >
+
+               <div class="col-sm-7">
+                   <h2> Application Example</h2>
+                   <p> HTTP could be used in most of the websites like internet forums, educational sites. Because these
+                       are open discussion forums, secured access is not required. For example http://www.ndtv.com
+
+                       </p>
+                   <p> HTTPS should be used in Banking Websites, Payment gateway, Shopping Websites, Login Pages, Emails
+                       and Corporate Sector Websites. For example https://paytm.com/</p>
+               </div>
+             <div class="col-sm-5" >
+               <img src="Images/HTTP3.jpg"  alt="img" class="img-fluid" width="700" height="600" style="float:right; " />
+             </div>
+
+
+           </div>
+
+
+
+
+
+    </div>
+<p style="height:50px;">&nbsp;</p>
+
+<!-- Footer -->
+<footer class="py-5 bg-dark">
+    <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Rimpalbahen Suthar and Yan Yan 2021</p>
+    </div>
+    <!-- /.container -->
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="startbootstrap-scrolling-nav-gh-pages/vendor/jquery/jquery.min.js"></script>
+<script src="startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="startbootstrap-scrolling-nav-gh-pages/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom JavaScript for this theme -->
+<script src="startbootstrap-scrolling-nav-gh-pages/js/scrolling-nav.js"></script>
+
+</body>
+
+</html>
