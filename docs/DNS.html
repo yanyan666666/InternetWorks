@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <meta content="" name="description">
+    <meta content="" name="author">
+
+    <title>InternetWorks</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="startbootstrap-scrolling-nav-gh-pages/css/scrolling-nav.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a>
+        <button aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler" data-target="#navbarResponsive" data-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#What is Internet">What is Internet</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#Wires, Cables and WiFi">Wires, Cables and WiFi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#IP Addresses and DNS">IP Addresses and DNS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#Packets, Routing and Reliability">Packets, Routing and
+                        Reliability</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#HTTP and HTML">HTTP and HTML</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#Encryption Public Keys">Encryption Public Keys</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="bg-info text-white">
+    <div class="container text-center">
+        <h1 class="display-4">Domain Name System(DNS)</h1>
+
+    </div>
+</header>
+<!-- content -->
+<p style="height:50px;">&nbsp;</p>
+<br>
+
+	   <div class="container p-3 my-3 border">
+
+		   <div class="row" >
+
+ 			 <div class="col-sm-8" >
+               <h2> DNS Definition</h2>
+               <p> The Domain Name System (DNS) (Domain Name System) The Internet's system for converting alphabetic
+                 names into numeric IP addresses. For example, when a Web address (URL) is typed into a browser, DNS
+                 servers return the IP address of the Web server associated with that name. In this made-up example, the
+                 DNS converts the URL <strong>www.company.com</strong> into the IP address <strong>204.0.8.51</strong>. Without DNS, you would have to
+                 type the series of four numbers and dots into your browser to retrieve the website, which you actually
+                 can do.</p>
+             </div>
+             <div class="col-sm-4" >
+               <img src="images/dnsexample.jpg"  alt="img" class="img-fluid" width="500" height="600" style="float:right; padding:10px;" />
+             </div>
+
+
+           </div>
+<hr>
+         		   <div class="row" >
+
+ 			 <div class="col-sm-8" >
+               <h2> DNS Example</h2>
+               <p>
+                 Let's take a look at how the DNS returns the client the IP address of ‘example.com’.
+               </p><dl>
+                 The 8 steps in a DNS lookup:
+                 <dd>1.A user types ‘example.com’ into a web browser and the query travels into the Internet and is received
+                   by a DNS recursive resolver.</dd>
+               <dd>2.The resolver then queries a DNS root nameserver (.).</dd>
+                 <dd>3.The root server then responds to the resolver with the address of a Top Level Domain (TLD) DNS server
+                 (such as .com or .net), which stores the information for its domains. When searching for example.com,
+                   our request is pointed toward the .com TLD.</dd>
+               <dd>4.The resolver then makes a request to the .com TLD.</dd>
+               <dd>5.The TLD server then responds with the IP address of the domain’s nameserver, example.com.</dd>
+               <dd>6.Lastly, the recursive resolver sends a query to the domain’s nameserver.</dd>
+               <dd>7.The IP address for example.com is then returned to the resolver from the nameserver.</dd>
+                 <dd>8.The DNS resolver then responds to the web browser with the IP address of the domain requested
+                   initially.</dd>
+                 <p>Once the 8 steps of the DNS lookup have returned the IP address for example.com, the browser is able to
+                   make the request for the web page:</p>
+
+               <dd>9.The browser makes a HTTP request to the IP address.</dd>
+                   <dd>10.The server at that IP returns the webpage to be rendered in the browser (step 10).</dd>
+
+             </div>
+             <div class="col-sm-4" >
+               <img src="images/dnsexample.jpg"  alt="img" class="img-fluid" width="500" height="600" style="float:right; padding:10px;" />
+             </div>
+
+             <hr>
+           </div>
+<hr>
+
+         <div class="row">
+
+           <div class="col-sm-8">
+             <h2> Importance Of DNS</h2>
+             <dl>
+               <dd>1. Add network wide parental controls- DNS servers give you the added advantage of being able to
+                 block access to certain sites from the devices in your home or work network. .
+               </dd>
+               <dd>2. Avoid censorship</dd>
+               <dd>3.By pass content restrictions for geographical areas</dd>
+               <dd>4.Increase internet security</dd>
+               <dd>5.Faster web browsing</dd>
+
+
+           </div>
+           <div class="col-sm-4">
+             <img src="images/dnsexample.jpg" alt="img" class="img-fluid" width="500" height="600"
+                  style="float:right; padding:10px;"/>
+           </div>
+
+           <hr>
+         </div>
+
+  				</div>
+			</div>
+		  </div>
+    </div>
+
+
+<!-- Footer -->
+<footer class="py-5 bg-dark">
+    <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Rimpalbahen Suthar and Yan Yan 2021</p>
+    </div>
+    <!-- /.container -->
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="startbootstrap-scrolling-nav-gh-pages/vendor/jquery/jquery.min.js"></script>
+<script src="startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="startbootstrap-scrolling-nav-gh-pages/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom JavaScript for this theme -->
+<script src="startbootstrap-scrolling-nav-gh-pages/js/scrolling-nav.js"></script>
+
+</body>
+
+</html>
