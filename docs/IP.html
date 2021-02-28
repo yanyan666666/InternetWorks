@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <meta content="" name="description">
+    <meta content="" name="author">
+
+    <title>InternetWorks</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="startbootstrap-scrolling-nav-gh-pages/css/scrolling-nav.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a>
+        <button aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler" data-target="#navbarResponsive" data-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#What is Internet">What is Internet</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#Wires, Cables and WiFi">Wires, Cables and WiFi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#IP Addresses and DNS">IP Addresses and DNS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#Packets, Routing and Reliability">Packets, Routing and
+                        Reliability</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#HTTP and HTML">HTTP and HTML</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#Encryption Public Keys">Encryption Public Keys</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="bg-info text-white">
+    <div class="container text-center">
+        <h1 class="display-4">IP Addresses, Packets and Routing</h1>
+
+    </div>
+</header>
+<!-- content -->
+<p style="height:5px;">&nbsp;</p>
+<br>
+
+<div class="container  border">
+
+    <div class="row">
+
+        <div class="col-sm-7">
+            <h2> 1.IP Addresses</h2>
+            <h3> Definition</h3>
+            <p> An IP address is a unique address that identifies a device on the internet or a local network. IP stands
+                for "Internet Protocol," which is the set of rules governing the format of data sent via the internet or
+                local network.</p>
+            <p>IP addresses are expressed as a set of four numbers — an example address might be 192.158.1.38. Each
+                number in the set can range from 0 to 255. So, the full IP addressing range goes from 0.0.0.0 to
+                255.255.255.255.</p>
+            <h3> Example</h3>
+            <p> In the video, (The Internet - Wires, Cables, WIFI Part 2), the speaker states "Visiting a website is
+                really just your computer asking another computer for information. Your computer sends a message to the
+                other computer's IP address, and it also sends along its origin address. So the other computer knows
+                where to send it through response." 02:29 .</p>
+            <h3> Why we use IP Addresses?</h3>
+            <p> The main reason why IP addresses are used is that it handles the logical routable connection from both
+                computers to computer AND network to network.
+
+            </p>
+        </div>
+        <div class="col-sm-5">
+            <p style="height:50px;">&nbsp;</p>
+            <img src="Images/IP1.png" alt="img" class="img-fluid" width="500" height="400"/>
+        </div>
+    </div>
+    <hr>
+
+    <div class="row">
+
+        <div class="col-sm-7">
+            <h2> 2.Packets</h2>
+            <h3> Definition</h3>
+            <p> A packet is a small amount of data sent over a network, such as a LAN or the Internet. Similar to a
+                real-life package, each packet includes a source and destination as well as the content (or data) being
+                transferred. When the packets reach their destination, they are reassembled into a single file or
+                another contiguous block of data. While the exact structure of a packet varies between protocols, a
+                typical packet includes two sections — a header and payload. </P>
+
+            <h3> Example</h3>
+            <p> Every Web page that you receive comes as a series of packets, and every e-mail you send leaves as a
+                series of packets. Networks that ship data around in small packets are called packet-switched
+                networks.</p>
+
+            <h3> Why we use Packets?</h3>
+            <p>First, the network can balance the load across various pieces of equipment on a
+                millisecond-by-millisecond basis. Second, if there is a problem with one piece of equipment in the
+                network while a message is being transferred, packets can be routed around the problem, ensuring the
+                delivery of the entire message.
+
+            </p>
+        </div>
+     <div class="col-sm-5">
+         <p style="height:50px;">&nbsp;</p>
+            <img src="Images/IP3.gif" alt="img" class="img-fluid" width="500" height="400"/>
+        </div>
+
+    </div>
+    <hr>
+
+
+    <div class="row">
+
+        <div class="col-sm-8">
+            <h2> 3.Routing</h2>
+            <h3> Definition</h3>
+            <p> Network routing is the process of selecting a path across one or more networks. The principles of
+                routing can apply to any type of network, from telephone networks to public transportation. In
+                packet-switching networks, such as the Internet, routing selects the paths for Internet Protocol (IP)
+                packets to travel from their origin to their destination. These Internet routing decisions are made by
+                specialized pieces of network hardware called routers.</p>
+            <h3> Example</h3>
+            <P>A router provides you with internet access by connecting your LAN with the Internet.</P>
+            <h3> Why we use Routing?</h3>
+            <P>A router helps you connect multiple devices to the Internet and connect the devices. Also, you can use
+                routers to create local networks of devices. These local networks are useful if you want to share files
+                among devices or allow employees to share software tools. If you don’t have routers, your business's
+                data won’t get directed to the right place. For example, if you'd like to print a document, you need a
+                router to help get that document to a printer—not to another computer or a scanner.</P>
+        </div>
+
+ <div class="col-sm-4">
+     <p style="height:50px;">&nbsp;</p>
+            <img src="Images/IP5.jpg" alt="img" class="img-fluid" width="500" height="400"/>
+        </div>
+
+    </div>
+
+
+</div>
+
+<p style="height:50px;">&nbsp;</p>
+<!-- Footer -->
+<footer class="py-5 bg-dark">
+    <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Rimpalbahen Suthar and Yan Yan 2021</p>
+    </div>
+    <!-- /.container -->
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="startbootstrap-scrolling-nav-gh-pages/vendor/jquery/jquery.min.js"></script>
+<script src="startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="startbootstrap-scrolling-nav-gh-pages/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom JavaScript for this theme -->
+<script src="startbootstrap-scrolling-nav-gh-pages/js/scrolling-nav.js"></script>
+
+</body>
+
+</html>
