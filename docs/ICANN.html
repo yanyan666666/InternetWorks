@@ -23,7 +23,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
     <div class="container">
-<a class="navbar-brand js-scroll-trigger" href="index.html">Home</a>
+        <a class="navbar-brand js-scroll-trigger" href="index.html">Home</a>
         <button aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"
                 class="navbar-toggler" data-target="#navbarResponsive" data-toggle="collapse" type="button">
             <span class="navbar-toggler-icon"></span>
@@ -56,5 +56,108 @@
         </div>
     </div>
 </nav>
+<header class="bg-info text-white">
+    <div class="container text-center">
+        <h4>Domain Names and Internet Corporation for Assigned Names and Numbers </h4>
+    </div>
+
+</header>
+<div class="container border" style="margin-top: 30px; width: 1000px">
+    <br>
+    <h4>What is a domain name and how does it work?</h4>
+    <hr>
+    <p>A Domain name is the address of your website that people type in the browser URL bar to lookup your website.
+        In other words, if your website was a house, your domain name will be its address.</p>
+    <p>We all know that the Internet is a giant netwrok of computers connected to each other through a global network of
+        cables. Each computer on this network can communicate with the other systems(computers).</p>
+    <p>Every computer on the public Internet has a unique numeric address—similar to the
+        uniquenes of a telephone number—which is a string of numbers that is difficult for most
+        people to remember. This string is called the “IP address.” IP stands for“Internet Protocol.”</p>
+    <p>To make it easier to find a given location on the Internet, the Domain Name System, or DNS, was
+        invented. The DNS translates IP addresses into unique alphanumeric addresses called domain names
+        that are easier to remember. If, for example, you would like to visit some website, would you
+        rather remember the IP address 192.0.34.163, or type“www.xyz.com”? By associating a familiar string
+        of letters—the domain name—with an IP address, the DNS makes it much easier for Internet users to
+        remember websites and email addresses. In the example above, the “xyz.com” part of the address is
+        called the domain name. The “www.”part identifies to your browser that you are looking for the World
+        Wide Web interface for that domain name.</p>
+    <p>To understand how domain names work, we will take a look at what happens when you enter it in your browser.</p>
+    <div style="text-align: center;  !important; ">
+        <img alt="How domain name works" class="rounded" src="./Images/howdomainswork.png"
+             style="height: 500px; width: 500px;">
+    </div>
+    <br>
+
+    <ol>
+        <li>When you enter a domain name in your web browser, it first sends a request to a global network of servers
+            that form the Domain Name System (DNS).
+        </li>
+        <p>For example, if your website is hosted on <strong>xyzhost</strong>, then its name server information will be
+            like this:
+            <br>
+        <div style="text-align: center; font-family: 'Courier New'"><i>ns1.xyzhost.com <br>
+            ns2.xyzhost.com</i></div>
+        </p>
+        <li>
+            These name servers are computers managed by your hosting company. Your hosting company will forward your
+            request to the computer where your website is stored.
+        </li>
+        <li>This computer is called a web server. It has special software installed (Apache, Nginx are two popular web
+            server software). The web server now fetches the web page and pieces of information associated with it.
+        </li>
+        <li>Finally, it then sends this data back to the browser.</li>
+    </ol>
+    <br>
+    <h4>What is role of ICANN?</h4>
+    <hr>
+
+    <div style="text-align-last: center;  !important; ">
+        <img alt="icannImage" class="rounded" src="./Images/icann-oversight-3.jpg" style="height: 400px; width: 550px">
+
+    </div>
+    <br>
+    <ul>
+
+        <li><strong>Internet Corporation for Assigned Names and Numbers (ICANN)</strong> manages the domain names system. It is a
+            non-profit
+            organization that creates and implements the policies for domain names.
+        </li>
+        <li>ICANN gives permission to companies called Domain Name Registrars for selling domain names. These domain
+            registrars are allowed to make changes to domain names registry on your behalf.
+        </li>
+        <li>
+            Domain name registrars can sell domain names, manage its records, renewals, and transfers to other registrars.
+        </li>
+        <li>
+            As a domain name owner, you are responsible for telling the registrar where to send requests.
+            You are also responsible for renewing your domain registration.
+        </li>
+        <br>
+        <li>
+            <a href="https://www.icann.org/en/system/files/files/domain-names-beginners-guide-06dec10-en.pdf">For detailed information on Domain names and ICANN, Please click here.</a>
+        </li>
+    </ul>
+
+</div>
+
+
+<!-- Footer -->
+<footer class="py-5 bg-dark">
+    <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Rimpalbahen Suthar and Yan Yan 2021</p>
+    </div>
+    <!-- /.container -->
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="startbootstrap-scrolling-nav-gh-pages/vendor/jquery/jquery.min.js"></script>
+<script src="startbootstrap-scrolling-nav-gh-pages/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="startbootstrap-scrolling-nav-gh-pages/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom JavaScript for this theme -->
+<script src="startbootstrap-scrolling-nav-gh-pages/js/scrolling-nav.js"></script>
 </body>
+
 </html>
